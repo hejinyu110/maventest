@@ -9,6 +9,7 @@
         <module name="java01-servlet" />
         <module name="java02-servlet" />
         <module name="response" />
+        <module name="smbms" />
       </profile>
     </annotationProcessing>
   </component>
