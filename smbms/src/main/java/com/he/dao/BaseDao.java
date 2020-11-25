@@ -31,11 +31,11 @@ public class BaseDao  {
         password = properties.getProperty("password");
     }
     //获取数据库的连接
-    public static Connection getConnection(){
+    public static Connection getConnection() throws Exception{
         Connection connection = null;
         try {
             Class.forName(driver);
-            connection = DriverManager.getConnection(url,username,password);
+            connection = (Connection) DriverManager.getConnection(url,username,password);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -43,7 +43,7 @@ public class BaseDao  {
     }
     //编写查询公共类
     public static ResultSet execute(Connection connection, String sql, Object[] params, ResultSet resultSet, com.mysql.jdbc.PreparedStatement preparedStatement) throws Exception{
-        preparedStatement = connection.prepareStatement(sql);
+        preparedStatement = (com.mysql.jdbc.PreparedStatement) connection.prepareStatement(sql);
         for (int i = 0; i < params.length; i++) {
             preparedStatement.setObject(i+1,params[i]);
         }

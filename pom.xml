@@ -11,6 +11,7 @@
     <module>java01-servlet</module>
     <module>java02-servlet</module>
     <module>response</module>
+    <module>smbms</module>
   </modules>
   <!-- war web 应用打包  jar java 应用打包 -->
   <packaging>pom</packaging>
