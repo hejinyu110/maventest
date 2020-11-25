@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java01-servlet" />
+        <module name="filter" />
         <module name="java02-servlet" />
         <module name="response" />
+        <module name="java01-servlet" />
       </profile>
     </annotationProcessing>
   </component>

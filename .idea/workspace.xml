@@ -5,8 +5,22 @@
       <artifact name="response:war" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b124067e-f0c2-4c1f-a44e-01c6f9c68cf9" name="Default Changelist" comment="" />
+    <list default="true" id="b124067e-f0c2-4c1f-a44e-01c6f9c68cf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/maventest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/src/main/java/com/he/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/src/main/java/com/he/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/web/sys/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filter/web/sys/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +52,6 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -46,7 +59,6 @@
   <component name="ProjectId" id="1kZgtOFzaNTb1a5RLEAGG3rEoFA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -188,6 +200,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" timestamp="1606003914997">
